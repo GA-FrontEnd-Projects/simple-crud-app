@@ -57,10 +57,12 @@ Here's what the app should do:
 
 Here are some resources that will make your styling and some of your interactions much easier:
 
-1) Twitter bootstrap
+1) [Twitter Bootstrap](http://getbootstrap.com/)
 
-2) FontAwesome
+2) [Handlebars.js](http://handlebarsjs.com/)
 
-3) jQuery
+3) [FontAwesome](http://fontawesome.io/)
 
-4) jQuery UI
+4) [jQuery](https://jquery.com/)
+
+5) [jQuery UI](http://jqueryui.com/)
