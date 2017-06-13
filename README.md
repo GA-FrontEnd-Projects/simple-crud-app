@@ -4,6 +4,9 @@ We'll be creating a simple CRUD create, read, update, delete) application to hel
 
 We will be building a simple to-do list application that allows us to create to-do list items, update them, reorder them, and delete them, all on the front end. You can optionally add back end technology once you feel like your front end is in good shape.
 
+
+## Data Storage
+
 Since we'll be dealing with a number of "records" (our to-do list items), we'll need somewhere to store them. We have a couple of options for where we can do that:
 
 1) JavaScript objects
@@ -16,8 +19,6 @@ Note that only cookies and LocalStorage will allow our data to persist after a p
 
 Keep your records in a JavaScript object to start, and you can experiment with the other storage methods after you get the app working reliably.
 
-Our app should consist of one HTML file (index.html), one stylesheet file (style.css) and probably two JavaScript files, one that contains your app code (script.js) and one that contains the initial state of your "database" (seed-data.js).
-
 Each record should have the following attributes:
 
 <code>id</code>
@@ -26,8 +27,18 @@ Each record should have the following attributes:
 <code>order</code>
 <code>creationDate</code>
 
+
+## App Structure
+
+Our app should consist of one HTML file (index.html), one stylesheet file (style.css) and probably two JavaScript files, one that contains your app code (script.js) and one that contains the initial state of your "database" (seed-data.js).
+
+
+## App Layout
+
 The layout of the page can be whatever you like, but you'll need, at minimum, a table where the records will be displayed with labels for the columns of the table, and a button for adding new records. Each record should display the title of the task, whether it's been completed, and the date it was added. There should also be buttons for editing and deleting the record. Lastly, you'll need a form for creating the record and another form for editing a record.
 
+
+## App Behavior
 
 Here's what the app should do:
 
@@ -42,6 +53,7 @@ Here's what the app should do:
 5) When that form is saved, the HTML and the "database" of the appropriate record with the edited information shoud be updated.
 
 
+## Helpful Resources
 
 Here are some resources that will make your styling and some of your interactions much easier:
 
